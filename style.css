@@ -1174,7 +1174,7 @@ footer{
 @media (max-width: 320px) {
     .box {
         margin: -8px;
-        height: 5rem;
+        height: 7rem;
     }
     .box ul li a {
         padding: 8px 10px;
