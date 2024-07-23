@@ -757,6 +757,7 @@ footer{
 @media (min-width: 481px) and (max-width: 768px) {
     .box {
         margin: -8px;
+        height: 5rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -838,6 +839,7 @@ footer{
 @media (min-width: 415px) and (max-width: 480px) {
     .box {
         margin: -8px;
+        height: 5rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -920,6 +922,7 @@ footer{
 @media (min-width: 396px) and (max-width: 414px) {
     .box {
         margin: -8px;
+        height: 5rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -1003,6 +1006,7 @@ footer{
 
 .box {
     margin: -8px;
+    height: 5rem;
 }
 .box ul li a {
     padding: 8px 10px;
@@ -1085,6 +1089,7 @@ footer{
 @media (min-width: 321px) and (max-width: 376px) {
     .box {
         margin: -8px;
+        height: 5rem;
     }
     .box ul li a {
         padding: 8px 10px;
