@@ -37,15 +37,7 @@ header input {
 
 .logo{
     position: relative;
-    left: -100px;
-}
-
-.titulo{
-    display: block;
-    position: relative;
-    left: -600px;
-    top: 10px;
-    font-size: 40px;
+    left: 500px;
 }
 
 body {
@@ -218,7 +210,15 @@ footer{
 
 }
 
-
+.NE{
+    position: relative;
+    left: 550px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    margin: 20px;
+}
 
 @media (max-width: 844px) {
 
@@ -252,7 +252,7 @@ footer{
         height: 200px;
     }
     
-    .titulo{
+    .T{
         display: none;
     }
 
@@ -296,6 +296,16 @@ footer{
         width: 380px;
     }
 
+
+    .NE{
+        position: relative;
+        top: -40px;
+        margin-left: -400px;
+        font-weight: bolder;
+        font-size: 20px;
+        border-radius: 5px;
+        border: none;
+    }
 
 
 }
