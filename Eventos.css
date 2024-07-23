@@ -20,10 +20,6 @@ header img {
     width: 18rem;
     margin-left: 4rem;
 }
-header h1 {
-    font-size: 40px;
-    margin-left: 3rem;
-}
 header input {
     width: 25rem;
     height: 2.5rem;
@@ -39,9 +35,9 @@ header input {
     }
 }
 
-.T{
+.logo{
     position: relative;
-    left: -850px;
+    left: 450px;
 }
 
 body {
@@ -214,15 +210,7 @@ footer{
 
 }
 
-.NE{
-    position: relative;
-    left: 550px;
-    border-radius: 5px;
-    border: none;
-    font-size: 18px;
-    margin-top: 50px;
-    margin: 20px;
-}
+
 
 @media (max-width: 844px) {
 
@@ -300,16 +288,6 @@ footer{
         width: 380px;
     }
 
-
-    .NE{
-        position: relative;
-        top: -40px;
-        margin-left: -400px;
-        font-weight: bolder;
-        font-size: 20px;
-        border-radius: 5px;
-        border: none;
-    }
 
 
 }
