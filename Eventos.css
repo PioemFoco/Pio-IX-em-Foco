@@ -215,7 +215,13 @@ footer{
 }
 
 .NE{
-    display: none;
+    position: relative;
+    left: 550px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    margin: 20px;
 }
 
 @media (max-width: 800px) {
@@ -246,14 +252,12 @@ footer{
 
     .logo{
         position: relative;
-        left: -80px;
+        left: -10px;
         height: 200px;
     }
     
     .T{
-        position: relative;
-        z-index: -2px;
-        left: -100px;
+        display: none;
     }
 
     .box{
@@ -296,17 +300,13 @@ footer{
         width: 380px;
     }
 
-    footer{
-        margin-top: 100px;
-    }
 
     .NE{
-        display: block;
-        text-align: center;
         position: relative;
-        top: 50px;
+        top: -40px;
+        margin-left: -500px;
         font-weight: bolder;
-        font-size: 35px;
+        font-size: 20px;
     }
 
 
