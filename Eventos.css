@@ -222,28 +222,8 @@ footer{
       
 
       body {
-        height: 4000px; 
+        height: 700px; 
       }
-      
-      .scroll-to {
-        position: relative;
-        top: -150px;
-        left: 100px;
-        width: 200px;
-        height: 50px;
-        cursor: pointer;
-        background-color: #00c20a;
-        border-radius: 10px;
-        color: white;
-        display: block;
-        transition: transform 0.3s ease;
-      }
-
-    
-    .scroll-to:hover{
-        transform: scale(1.2);
-        background-color: #00c20a;
-    }
 
     .vt{
         position: relative;
@@ -315,11 +295,6 @@ footer{
         white-space: nowrap;
     }
 
-    .scroll-to{
-        position: relative;
-      
-    }
-
 
     .imgf{
         position: relative;
@@ -330,7 +305,7 @@ footer{
     footer{
         height: 300px;
         position: relative;
-        top: 250px;
+        bottom: 150px;
     }
 
     .fim{

@@ -51,31 +51,5 @@
             
        
         </article>
-        <section class="comments">
-            <h2>Comentários</h2>
-            <form class="comment-form">
-                <textarea id="comment-text" placeholder="Deixe um comentário..." required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-            <div class="comments-list"></div>
-        </section>
-    </div>
-    <script>
-        document.querySelector('.comment-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            const commentText = document.getElementById('comment-text').value;
-            if (commentText) {
-                const commentList = document.querySelector('.comments-list');
-                const newComment = document.createElement('div');
-                newComment.classList.add('comment');
-                newComment.innerHTML = `
-                    <p class="comment-text">${commentText}</p>
-                    <p class="comment-author">Anônimo</p>
-                `;
-                commentList.appendChild(newComment);
-                document.getElementById('comment-text').value = '';
-            }
-        });
-    </script>
 </body>
 </html>
