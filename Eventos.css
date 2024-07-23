@@ -291,14 +291,15 @@ footer{
     }
 
     footer{
-        height: 400px;
+        height: 500px;
         margin-top: 200px;
+       
     }
 
     .fim{
         position: relative;
-        top: 10px;
+        top: 200px;
         flex-direction: column;
-        font-size: 18px;
+        font-size: 15px;
     }
 }
