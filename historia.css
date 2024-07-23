@@ -415,11 +415,11 @@ h1{
             
         }
     }
-    .carroseuitem{
+  .carroseuitem{
         
         img{
             
-            width : 11rem;
+            width : auto;
             height: 11rem;
             
         }
