@@ -221,9 +221,6 @@ footer{
       }
       
 
-      body {
-        height: 700px; 
-      }
 
     .vt{
         position: relative;
@@ -241,13 +238,16 @@ footer{
     body{
         margin: 0;
         padding: 0;
-        width: 100%;
+     
         overflow-x: hidden;
+        margin-inline: 0;
     }
 
 
     header{
+        overflow-x: hidden;
         margin: 0;
+        
     }
 
     .logo{
