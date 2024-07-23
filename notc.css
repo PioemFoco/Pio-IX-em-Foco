@@ -193,6 +193,7 @@ nav img {
     height: auto;
     border-radius: 8px;
     word-spacing: 5px;
+    display: block;
 }
 
 .nav{
@@ -257,6 +258,7 @@ footer{
         height: auto;
         border-radius: 8px;
         word-spacing: 5px;
+        display: none;
     }
     .fim{
         position: relative;
