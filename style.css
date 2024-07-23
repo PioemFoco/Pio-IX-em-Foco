@@ -144,7 +144,7 @@ body {
     opacity: 0;
     visibility: hidden;
     position: relative;
-    width: 97%;
+    width: 99%;
     height: 120px;
     background-color: transparent;
 }
@@ -732,7 +732,7 @@ footer{
     }
     .a {
         position: relative;
-        width: 99%;
+        width: 98%;
         height: 80px;
         background-color: transparent;
         visibility: visible;
@@ -813,7 +813,7 @@ footer{
     }
     .a {
         position: relative;
-        width: 99%;
+        width: 98%;
         height: 80px;
         background-color: transparent;
         visibility: visible;
@@ -894,7 +894,7 @@ footer{
     }
     .a {
         position: relative;
-        width: 97%;
+        width: 98%;
         height: 40px;
         background-color: transparent;
         visibility: visible;
