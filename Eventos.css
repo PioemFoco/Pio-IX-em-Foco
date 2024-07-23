@@ -210,6 +210,12 @@ footer{
     margin: 0;
     align-items: end;
     
+
+
+}
+
+.NE{
+    display: none;
 }
 
 @media (max-width: 800px) {
@@ -288,6 +294,18 @@ footer{
         position: relative;
         left: -225px;
         width: 380px;
+    }
+
+    footer{
+        margin-top: 200px;
+    }
+
+    .NE{
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        font-weight: bolder;
     }
 
 
