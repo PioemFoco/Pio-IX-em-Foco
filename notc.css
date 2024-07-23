@@ -236,6 +236,7 @@ footer{
     overflow: hidden;
     background-color:rgb(31, 33, 34);
     margin: 0;
+    height: 3rem
     align-items: end;  
 }
 @media (max-width: 900px) {
