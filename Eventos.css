@@ -41,7 +41,7 @@ header input {
 
 .T{
     position: relative;
-    left: -600px;
+    left: -850px;
 }
 
 body {
@@ -50,10 +50,6 @@ body {
 
 .pcima{
 background-color: transparent;
-}
-
-.pmeio{
-    background-color: transparent;
 }
 
 .pbaixo{
@@ -103,13 +99,13 @@ div ul li a{
 
 .img{
     height: 360px;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .img2{
     height: 350px;
-    position: relative;
-    left: 500px;
+    margin-top: 2px;
+    margin-left: -80px;
 }
 
 .folguedos{
@@ -122,7 +118,7 @@ div ul li a{
 }
 
 .box {
-    background-color: #161718;
+    background-color: #15171a;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -172,21 +168,24 @@ div ul li a{
 }
 
 .fp{
-    position: relative;
-    top: -100px;
+    margin-top: -900px;
+    margin-left: 900px;
 }
 
 .imgf{
     height: 660px;
     width: 500px;
-    position: relative;
-    left: 400px;
+    margin: 300px;
+    margin-left: -660px;
 }
 
+.tf{
+    background-color: transparent;
+}
 
 .pf2{
     position: relative;
-    top: -80px;
+    top: -250px;
     font-size: 18px;
     padding: 20px;
 }
@@ -196,10 +195,12 @@ div ul li a{
     margin: 10px 0;
 }
 
+.scroll-to{
+    display: none;
+}
 
 footer{
-    position: relative;
-    top: 200px;
+    margin-top: 10em;
     font-size: 11px;
     text-align: center;
     color: white;
@@ -213,60 +214,96 @@ footer{
     
 }
 
-@media (max-width: 844px) {
+@media (max-width: 800px) {
 
-    html, body {
-        overflow-x: hidden; /* Evita a barra de rolagem horizontal */
-        max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da janela */
+
+
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    header{
+        margin: 0;
+    }
+
+    .logo{
+        position: relative;
+        left: -80px;
+        height: 200px;
     }
     
-
-    .titulo{
-        display: none;
+    .T{
+        position: relative;
+        z-index: -2px;
+        left: -100px;
     }
 
     .box{
-        height: 200px;
+        height: 100px;
+        margin: 0;
     }
 
     .pcima{
         position: relative;
-        top: -70px;
-        font-size: 20px;
-        left: 70px;
-    }
-
-    .pmeio{
-        position: relative;
-        left: -240px;
-        font-size: 20px;
+        top: -30px;
     }
 
     .pbaixo{
         position: relative;
-        left: -554px;
-        top: 70px;
-        font-size: 20px;
+        top: 20px;
+        left: -432px;
     }
 
     .img{
-        height: 300px;
         position: relative;
-        left: -90px;
+        left: -70px;
     }
 
     .img2{
-        height: 300px;
         position: relative;
-        top: -300px;
-        left: 200px;
+        left: 4px;
+        width: 180px;
     }
+
+    .fp{
+        position: relative;
+        left: -810px;
+        white-space: nowrap;
+    }
+
+    
+
 
     .imgf{
-     margin-left: -350px;
-     height: 400px;
-     width: 300px;
-
+        position: relative;
+        left: -472px;
+        width: 380px;
     }
 
+    footer{
+        height: 300px;
+        position: relative;
+        top: 250px;
     }
+
+    .fim{
+        position: relative;
+        top: 10px;
+        flex-direction: column;
+        font-size: 18px;
+    }
+}
