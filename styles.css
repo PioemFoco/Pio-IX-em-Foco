@@ -110,13 +110,7 @@ main {
     max-width: 100%;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    margin-top: 20px;
-}
+
 
 .carousel {
     transition: transform 0.3s ease-in-out; /* Adiciona transição suave para a propriedade transform */
@@ -136,8 +130,27 @@ footer {
     height: auto; /* Mantém a proporção original da imagem */
     display: block; /* Remove espaços extras que às vezes aparecem em imagens em linha */
 }
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+footer{
+    margin-top: 10em;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    background-color:rgb(31, 33, 34);
+    margin: 0;
+    align-items: end;
 
-/* Media Queries para Responsividade */
+    
+}
+
+ /*Media Queries para Responsividade */
 
 /* Estilos para telas de dispositivos móveis */
 @media (max-width: 768px) {
@@ -185,6 +198,14 @@ footer {
         left: 0;
         top: 0;
     }
+    .A{
+        text-decoration: none;
+        background-color: #3b7cc100;
+    }
+    .A2{
+        text-decoration: none;
+        background-color: rgba(0, 0, 255, 0);
+    }
 }
 
 /* Estilos para telas de tablets e desktops menores */
@@ -204,4 +225,5 @@ footer {
     .carousel img {
         max-height: 400px; /* Ajusta a altura máxima das imagens */
     }
+
 }
