@@ -484,6 +484,7 @@ footer{
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         display: flex;
+        height: 7rem;
         align-items: center;
         justify-content: center;
         margin: -8px;
@@ -590,7 +591,7 @@ footer{
 @media (width: 884px) {
     .box {
         margin: -8px;
-        height: 5rem;
+        height: 7rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -674,7 +675,7 @@ footer{
 @media (min-width: 767px) and (max-width: 883px){
     .box {
         margin: -8px;
-        height: 5rem;
+        height: 7rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -757,7 +758,7 @@ footer{
 @media (min-width: 481px) and (max-width: 768px) {
     .box {
         margin: -8px;
-        height: 5rem;
+        height: 7rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -839,7 +840,7 @@ footer{
 @media (min-width: 415px) and (max-width: 480px) {
     .box {
         margin: -8px;
-        height: 5rem;
+        height: 7rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -922,7 +923,7 @@ footer{
 @media (min-width: 396px) and (max-width: 414px) {
     .box {
         margin: -8px;
-        height: 5rem;
+        height: 7rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -1006,7 +1007,7 @@ footer{
 
 .box {
     margin: -8px;
-    height: 5rem;
+    height: 7rem;
 }
 .box ul li a {
     padding: 8px 10px;
@@ -1089,7 +1090,7 @@ footer{
 @media (min-width: 321px) and (max-width: 376px) {
     .box {
         margin: -8px;
-        height: 5rem;
+        height: 7rem;
     }
     .box ul li a {
         padding: 8px 10px;
@@ -1173,6 +1174,7 @@ footer{
 @media (max-width: 320px) {
     .box {
         margin: -8px;
+        height: 5rem;
     }
     .box ul li a {
         padding: 8px 10px;
