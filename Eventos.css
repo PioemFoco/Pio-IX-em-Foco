@@ -37,7 +37,15 @@ header input {
 
 .logo{
     position: relative;
-    left: 450px;
+    left: -100px;
+}
+
+.titulo{
+    display: block;
+    position: relative;
+    left: -600px;
+    top: 10px;
+    font-size: 40px;
 }
 
 body {
@@ -244,7 +252,7 @@ footer{
         height: 200px;
     }
     
-    .T{
+    .titulo{
         display: none;
     }
 
