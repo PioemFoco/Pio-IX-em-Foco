@@ -22,7 +22,7 @@ h1{
 body {
     
     background-image: url(img/barragem1.jpeg);
-    height: 210vh; /* Ajustei para 195vh para garantir cobertura total da imagem de fundo */
+    height: 120vh; /* Ajustei para 195vh para garantir cobertura total da imagem de fundo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
