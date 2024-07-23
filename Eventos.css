@@ -52,6 +52,10 @@ body {
 background-color: transparent;
 }
 
+.pmeio{
+    background-color: transparent;
+}
+
 .pbaixo{
     background-color: transparent;
 }
@@ -99,13 +103,13 @@ div ul li a{
 
 .img{
     height: 360px;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 
 .img2{
     height: 350px;
-    margin-top: 2px;
-    margin-left: -80px;
+    position: relative;
+    left: 500px;
 }
 
 .folguedos{
@@ -168,24 +172,21 @@ div ul li a{
 }
 
 .fp{
-    margin-top: -900px;
-    margin-left: 650px;
+    position: relative;
+    top: -100px;
 }
 
 .imgf{
     height: 660px;
     width: 500px;
-    margin: 300px;
-    margin-left: -400px;
+    position: relative;
+    left: 400px;
 }
 
-.tf{
-    background-color: transparent;
-}
 
 .pf2{
     position: relative;
-    top: -250px;
+    top: -80px;
     font-size: 18px;
     padding: 20px;
 }
@@ -197,7 +198,8 @@ div ul li a{
 
 
 footer{
-    margin-top: 10em;
+    position: relative;
+    top: 200px;
     font-size: 11px;
     text-align: center;
     color: white;
@@ -211,153 +213,60 @@ footer{
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 844px) {
 
-    
-    
-
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow-x: hidden;
+    html, body {
+        overflow-x: hidden; /* Evita a barra de rolagem horizontal */
+        max-width: 100%; /* Garante que o conteúdo não ultrapasse a largura da janela */
     }
     
-    .T{
-        margin-left: 650px;
+
+    .titulo{
+        display: none;
     }
 
     .box{
-        height: 100px;
-        margin: 0;
+        height: 200px;
     }
 
     .pcima{
-        margin-top: -60px;
+        position: relative;
+        top: -70px;
+        font-size: 20px;
+        left: 70px;
+    }
+
+    .pmeio{
+        position: relative;
+        left: -240px;
+        font-size: 20px;
     }
 
     .pbaixo{
-       margin-top: 30px;
-       margin-left: -447px;
+        position: relative;
+        left: -554px;
+        top: 70px;
+        font-size: 20px;
     }
 
     .img{
-        margin-left: -10px;
         height: 300px;
+        position: relative;
+        left: -90px;
     }
 
     .img2{
         height: 300px;
-        margin-left: 4px;
-    }
-
-    .folguedos{
         position: relative;
-        left: -600px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .fp{
-        position: relative;
-        left: -510px;
-        top: 800px;
-        white-space: nowrap;
+        top: -300px;
+        left: 200px;
     }
 
     .imgf{
-        position: relative;
-        top: 560px;
-        left: 440px;
-        height: 400px;
-        width: 300px;
+     margin-left: -350px;
+     height: 400px;
+     width: 300px;
+
     }
 
-    .tf{
-        position: relative;
-        top: 500px;
     }
-
-    footer{
-        position: relative;
-        top: 500px;
-        font-size: 16px;
-    }
-}
-    
-
-  
-
-@media (max-width: 860px) {
-
-    
-
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
-    
-    .T{
-        margin-left: 650px;
-    }
-
-    .box{
-        height: 100px;
-        margin: 0;
-    }
-
-    .pcima{
-        margin-top: -60px;
-    }
-
-    .pbaixo{
-       margin-top: 30px;
-       margin-left: -447px;
-    }
-
-    .img{
-        margin-left: -10px;
-        height: 300px;
-    }
-
-    .img2{
-        height: 300px;
-        margin-left: 4px;
-    }
-
-    .folguedos{
-        position: relative;
-        left: -600px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .fp{
-        position: relative;
-        left: -550px;
-        top: 800px;
-        white-space: nowrap;
-    }
-
-    .imgf{
-        position: relative;
-        top: 560px;
-        left: 480px;
-        height: 400px;
-        width: 300px;
-    }
-
-    .tf{
-        position: relative;
-        top: 500px;
-    }
-
-    footer{
-        position: relative;
-        top: 500px;
-        font-size: 16px;
-    }
-}
-
