@@ -227,3 +227,23 @@ nav{
 height: 500px;
 width: 500px;
 }
+@media (max-width: 900px) {
+    .b {
+        height: 200px;
+    }
+    .pcima, .pbaixo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .pbaixo a, .pcima a{
+        text-align: center;
+    }
+    .section.nav.img{
+        width: 40%;
+        height: auto;
+        border-radius: 8px;
+        word-spacing: 5px;
+    }
+}
