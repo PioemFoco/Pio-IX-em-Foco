@@ -224,7 +224,7 @@ footer{
     margin: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 844px) {
 
 
 
@@ -304,9 +304,10 @@ footer{
     .NE{
         position: relative;
         top: -40px;
-        margin-left: -500px;
+        margin-left: -400px;
         font-weight: bolder;
         font-size: 20px;
+        border: none;
     }
 
 
