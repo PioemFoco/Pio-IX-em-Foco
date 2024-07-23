@@ -1,0 +1,53 @@
+/* Reset de estilos para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilos para o container principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    text-align: justify;
+}
+
+main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+}

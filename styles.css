@@ -1,0 +1,207 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/WhatsApp\ Image\ 2024-07-20\ at\ 17.37.33.jpeg);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px; /* Reduzi o padding para dispositivos móveis */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em; /* Tamanho de fonte reduzido para dispositivos móveis */
+}
+
+.box {
+    background-color: #5b99d3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px auto; /* Centraliza a caixa */
+    max-width: 1000px; /* Limita a largura máxima da caixa */
+    padding: 10px 0; /* Adiciona algum padding nas laterais */
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens na caixa */
+}
+
+.box ul li {
+    margin: 5px;
+}
+
+.box ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    transition: color 0.3s;
+    background-color: #3b7bc1; /* Adiciona uma cor de fundo para links */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos links */
+}
+
+.box ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #dbdde9;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.box ul li a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #e6f1e6;
+}
+
+main {
+    padding: 20px;
+}
+
+.section {
+    background-color: rgba(240, 240, 240, 0.007); /* Fundo semitransparente para contraste */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px auto; /* Centraliza a seção */
+    box-shadow: 5px 5px 5px 2px #292727c2;
+    transition: transform 0.3s ease-in-out; /* Adiciona transição suave para a propriedade transform */
+    max-width: 1000px; /* Limita a largura máxima das seções */
+}
+
+.section:hover {
+    transform: scale(1.05); /* Aumenta a escala em 5% ao passar o mouse por cima */
+}
+
+.section .container {
+    text-align: center;
+}
+
+.section h2 {
+    margin-top: 0;
+    font-size: 1.5em; /* Tamanho de fonte maior para cabeçalhos */
+}
+
+.section p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.carousel {
+    transition: transform 0.3s ease-in-out; /* Adiciona transição suave para a propriedade transform */
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.4), -5px -5px 6px rgba(0, 0, 0, 0.4);
+    margin: 20px auto; /* Centraliza o carrossel na página */
+    overflow: hidden; /* Esconde as partes das imagens que excedem o contêiner */
+    border-radius: 30px;
+    max-width: 100%; /* Ajusta a largura do carrossel */
+    height: auto; /* Ajusta a altura com base na largura */
+}
+.h2{
+    background-color: rgba(116, 96, 70, 0.452);
+}
+
+.carousel img {
+    width: 100%;
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Remove espaços extras que às vezes aparecem em imagens em linha */
+}
+
+/* Media Queries para Responsividade */
+
+/* Estilos para telas de dispositivos móveis */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2em; /* Tamanho de fonte ajustado */
+    }
+
+    .box ul {
+        flex-direction: column;
+    }
+
+    .box ul li {
+        margin: 5px 0;
+    }
+
+    .section h2 {
+        font-size: 1.2em; /* Tamanho de fonte ajustado */
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    .carousel {
+        width: 90%; /* Ajusta o tamanho do carrossel */
+        height: auto; /* Ajusta a altura com base na largura */
+    }
+
+    .carousel img {
+        max-height: 300px; /* Define uma altura máxima para as imagens */
+    }
+
+    .A, .A2, .A3 {
+        position: static; /* Remove a posição absoluta para links */
+        display: inline-block; /* Faz os links ficarem em linha */
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #e6f1e6;
+        color: darkblue;
+        border-radius: 5px; /* Adiciona bordas arredondadas aos links */
+    }
+
+    .pbaixo {
+        position: static;
+        left: 0;
+        top: 0;
+    }
+}
+
+/* Estilos para telas de tablets e desktops menores */
+@media (max-width: 1024px) {
+    .section h2 {
+        font-size: 1.3em; /* Tamanho de fonte ajustado */
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .carousel {
+        width: 80%;
+    }
+
+    .carousel img {
+        max-height: 400px; /* Ajusta a altura máxima das imagens */
+    }
+}

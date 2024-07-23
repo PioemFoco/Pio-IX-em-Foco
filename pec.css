@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+header {
+    background-color:  black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.noticia {
+    margin-bottom: 20px;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

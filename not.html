@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidade Senac Pio IX</title>
+    <link rel="stylesheet" href="notc.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Unidade Sesc Senac Pio IX </h1>
+        </header>
+        <div class="b">
+            <ul>
+                <div class="pcima">
+                <li><a href="index.html" class="a1">Principal</a></li>
+                <li><a href="Eventos.html" class="a2">Eventos</a></li>
+                <li><a href="Historia.html" class="a3">Historia</a></li>
+            </div>
+            <div class="pbaixo">
+                <li><a href="not.html" class="a4">Noticias</a></li>
+                <li><a href="pi.html" class="a5">Esportes</a></li>
+                <li><a href="pt.html" class="a6">Pontos Turisticos</a></li>
+            </div>
+        </div>
+            </ul>
+        <article>
+            <p>
+                Desde outubro de 2022, a cidade de Pio IX, no Piauí, conta com uma unidade do Sesc Senac, marcando um importante avanço no desenvolvimento social e educacional da região. A implantação desta unidade tem proporcionado uma série de benefícios para a comunidade local, fortalecendo o acesso à educação profissional. Os moradores de Pio IX têm aproveitado intensamente os serviços oferecidos pela unidade. Os cursos oferecidos abrangem diversas áreas, como tecnologia, comércio e também administrativa, permitindo que os moradores adquiram habilidades essenciais para o mercado de trabalho.  
+            </p> 
+            <section>
+                <figure>
+                    <img src="img/img-senac.jpeg.jpg" alt="Unidade Sesc Senac em Pio IX">
+                    <figcaption>Unidade Sesc Senac em Pio IX</figcaption>
+                </figure>
+            </section>
+            <div class="container">
+                
+                <p>A chegada do Sesc Senac em Pio IX reflete um compromisso com a melhoria da qualidade de vida dos moradores. A unidade oferece uma variedade de cursos profissionalizantes, capacitando jovens e adultos para o mercado de trabalho. Além disso, o impacto econômico da unidade do Sesc Senac em Pio IX é significativo. Ao formar profissionais qualificados, a instituição ajuda a suprir a demanda por mão de obra especializada na região, o que atrai novos investimentos e contribui para o crescimento dos negócios locais.</p>
+        
+                <p>A presença do Sesc Senac em Pio IX tem sido um divisor de águas para muitos jovens e adultos, que antes tinham poucas oportunidades de qualificação profissional. Essa capacitação tem sido fundamental para aumentar a empregabilidade e fomentar o empreendedorismo na cidade. Essas iniciativas contribuem para a criação de uma comunidade mais unida e solidária, onde os indivíduos se sentem valorizados e motivados a participar ativamente do desenvolvimento local.</p>
+        
+                <p>Tanto os cursos que já foram concluídos, como os que estão em andamento, foram ofertados através do programa Senac de Gratuidade (PSG) que tem como objetivo levar a educação profissional para a população de baixa renda, promovendo assim inclusão social e gerando oportunidades igualitárias. Essas ações são fundamentais para a promoção de oportunidades e para a conclusão de uma sociedade mais justa e inclusiva.</p>
+        
+                <p>Em breve iniciará mais um curso na Unidade Sesc Senac de Pio IX. Com o avanço tecnológico e a modernização do mercado de trabalho, torna-se indispensável as pessoas obterem conhecimento em informática, pensando nisso a unidade Sesc Senac Pio IX está ofertando um curso de informática kids, ele terá duração de 45 horas, as aulas acontecerão aos sábados no horário das 8h às 11h. O valor deste curso é de 490 reais e pode ser pago em até 8X de 61,25. Invista no futuro do seu filho.</p>
+                <nav>
+                   <section><img src="img/WhatsApp Image 2024-07-19 at 21.31.53.jpeg" alt="Curso de Informática Kids"></section> 
+                   </nav>
+            </div>
+            
+       
+        </article>
+        <section class="comments">
+            <h2>Comentários</h2>
+            <form class="comment-form">
+                <textarea id="comment-text" placeholder="Deixe um comentário..." required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="comments-list"></div>
+        </section>
+    </div>
+    <script>
+        document.querySelector('.comment-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const commentText = document.getElementById('comment-text').value;
+            if (commentText) {
+                const commentList = document.querySelector('.comments-list');
+                const newComment = document.createElement('div');
+                newComment.classList.add('comment');
+                newComment.innerHTML = `
+                    <p class="comment-text">${commentText}</p>
+                    <p class="comment-author">Anônimo</p>
+                `;
+                commentList.appendChild(newComment);
+                document.getElementById('comment-text').value = '';
+            }
+        });
+    </script>
+</body>
+</html>

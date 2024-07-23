@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cor{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    img{
+        border: solid white;
+    }
+    header{
+        img{
+            border: none;
+        }
+    }
+    a{
+        color: white;
+    }
+    
+    
+}
+
+  
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -0.5rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px 15px 10px 5px rgb(189, 189, 189);
+    
+    height: 12rem;
+    color: white;
+    
+    width: 100%;
+}
+header img {
+    width: 18rem;
+    border: solid transparent;
+}
+header h1 {
+    font-size: 40px;
+    margin-left: -8rem;
+}
+header input {
+    width: 6rem;
+    height: 1.5rem;
+    margin-left: 5rem;
+    background-color: white;
+    border-radius: 500px;
+    font-weight: 500;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px;
+    border: none;
+}
+q{
+    text-align: end;
+    margin-right: 1rem;
+    
+}
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: rgb(31, 33, 34);
+    
+    width: 100%;
+    
+    h1{
+        opacity: 0;
+    }
+    lu{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
+.licima{
+    display: flex;
+}
+.libaixo{
+    display: flex;
+}
+.lista  ul {
+    display: flex;
+    align-items: center;
+}
+.lista  ul li {
+    list-style-type: none;
+}
+.lista  ul li a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+}
+
+.box {
+    background-color: #5b99d3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.box ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.box ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.box ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #0e2feb;
+    transition: width 0.3s ease, background-color 0.3s ease;
+    -webkit-transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.box ul li a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #e6f1e6;
+}
+
+footer{
+    margin-top: 10em;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    background-color:rgb(31, 33, 34);
+    margin: 0;
+    align-items: end;
+
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.carroseu{
+    position: relative;
+    max-width: 1000px;
+    margin: auto    ;
+    overflow: hidden;
+
+}
+.carroseuiner{
+    display: flex;
+    justify-content: space-around;
+    transition: .5s;
+}
+.carroseuitem{
+    min-width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+   
+ img{
+        margin-left: 29%;
+        width: 40%;
+        display: block;
+        margin-top: 29px;
+    }
+}
+.botao{
+    display: flex;
+    justify-content: space-around;
+    
+    color: white;
+    padding: 7px;
+    
+    margin-top: 10px;
+   
+    button{
+       background-color: black; 
+       color: white; 
+       border-radius: 10px;
+       height: 25px;
+       width: 80px;
+       
+    }
+}
+.fim{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+
+    
+}
+.imgprin{
+    border-radius: 15px;
+    border: solid black;
+    
+    width: 350px;
+    height: 300px;
+    }
+.not1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    
+    
+    
+    
+}
+.txt{
+    margin-top: 50px;
+    max-width: 50%;
+    margin-left: 30px;
+}
+.notvdd{
+    max-width: 80%;
+    margin-left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+   
+    
+       
+    
+}
+.ft{
+    text-align: center;
+    
+    height: 510px;
+    
+   
+    img{
+        border: solid black;
+        border-radius: 10px;
+        width: 30rem;
+        height: 30rem;
+
+    }
+    img:hover{
+        transition: transform 0.9s;
+        transform: scale(1.05);
+    }
+}   
+.galeria{
+    margin-top: 10em;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    background-color:rgb(63, 62, 62);
+    margin: 0;
+    border-bottom: solid black;
+}
+
+   
+
+h1{
+    cursor: pointer;
+}
+@media (max-width: 770px){
+    header{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 100px;
+            height: 100px;
+            
+        }
+        h1{
+            margin: 0;
+            text-align: center;
+        }
+        input{
+            margin: 0;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .lista{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .licima{
+        display: block;
+    }
+    .libaixo{
+        display: block;
+    }
+    
+    ul{
+       text-align: center;
+        
+         
+    }
+    li{
+        align-items: start; 
+        padding: 10px;
+    }
+    .not1{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt{
+        max-width: 100%;
+    }
+    .imgprin{
+        width: 250px;
+        height: 250px;
+    }
+    .notvdd{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .ft{
+        padding: 0px;
+        height: auto;
+        img{
+            
+            width: 20rem;
+            height: 20rem;
+            
+        }
+    }
+    .carroseuitem{
+        
+        img{
+            
+            width : 11rem;
+            height: 11rem;
+            
+        }
+    }
+}
+@media (max-width: 330px){
+    .lista{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .licima{
+        display: block;
+    }
+    .libaixo{
+        display: block;
+    }
+    input{
+        display: none;
+    }
+    ul{
+       text-align: center;
+        
+         
+    }
+    li{
+        align-items: start; 
+        padding: 10px;
+    }
+    .not1{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt{
+        max-width: 100%;
+    }
+    .imgprin{
+        width: 250px;
+        height: 250px;
+    }
+    .notvdd{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .ft{
+        padding: 0px;
+        height: auto;
+        img{
+            
+            width: 20rem;
+            height: 20rem;
+            
+        }
+    }
+    .carroseuitem{
+        
+        img{
+            
+            width : 11rem;
+            height: 11rem;
+            
+        }
+    }
+}
