@@ -290,16 +290,5 @@ footer{
         width: 380px;
     }
 
-    footer{
-        height: 500px;
-        margin-top: 200px;
-       
-    }
 
-    .fim{
-        position: relative;
-        top: 200px;
-        flex-direction: column;
-        font-size: 15px;
-    }
 }
